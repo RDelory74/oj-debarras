@@ -69,7 +69,7 @@
   text-align: center;
   height: 100%;
   padding: 5rem;
-  overflow-y: auto;
+  overflow-y: hidden;
   font-family: 'Alkatra', sans-serif;
   font-weight: 200;
   gap: 2%;
