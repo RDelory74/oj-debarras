@@ -219,6 +219,11 @@ p {
 
   }
 }
+  @media (max-width: 388px) {
+  .footer-map-locator iframe {
+    width: 270px;
+  }
+}
 </style>
 <script setup lang="ts">
 </script>
