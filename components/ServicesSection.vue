@@ -26,6 +26,7 @@
 <style scoped>
 h1, h3 {
   font-family: 'Alkatra', sans-serif;
+  margin-bottom: 0;
 }
 .service-text-container {
   width: 80%;
