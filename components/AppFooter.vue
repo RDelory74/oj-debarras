@@ -3,20 +3,18 @@
     <div class="footer-info">
       <div>
         <h4>Coordonnées</h4>
-        <NuxtLink to="/">
-          <img
-              class="logo"
-              src="@/assets/images/logo-OJDeb.png"
-              alt="Logo"
-          />
-        </NuxtLink>
-        <p>
-          OJ Débarras<br/>
-          Annecy<br/>
-        </p>
-        <div class="footer-info-contact">
-          <a href="tel:0623881877">Tel: 06 23 88 18 77</a>
-          <a href="mailto:o-jdebarras@hotmail.fr">o-jdebarras@hotmail.fr</a>
+            <div class="footer-info-container">
+          <NuxtLink to="/">
+            <img class="logo" src="@/assets/images/logo-OJDeb.png" alt="Logo" />
+          </NuxtLink>
+          <p>
+            OJ Débarras<br />
+            Annecy<br />
+          </p>
+          <div class="footer-info-contact">
+            <a href="tel:0623881877">Tel: 06 23 88 18 77</a>
+            <a href="mailto:o-jdebarras@hotmail.fr">o-jdebarras@hotmail.fr</a>
+          </div>
         </div>
       </div>
       <div>
@@ -87,11 +85,23 @@ footer {
   padding: 0 1rem;
   box-sizing: border-box;
 }
-
+.footer-info-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  border: 1px solid #6DA48F;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.274);
+    padding:10px;
+}
 .localite-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  border: 1px solid #6DA48F;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.274);
 }
 
 .localite-container > p {
