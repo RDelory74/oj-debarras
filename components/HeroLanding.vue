@@ -74,7 +74,7 @@
   text-align: center;
   height: 100%;
   padding: 1rem;
-  overflow-y: auto;
+  overflow-y: hidden;
   font-family: 'Alkatra', sans-serif;
   font-weight: 200;
   transition: width 0.3s ease-in-out;
