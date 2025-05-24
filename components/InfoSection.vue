@@ -30,6 +30,7 @@
 }
 h1, h3 {
   font-family: 'Alkatra', sans-serif;
+  margin-bottom: 0;
 }
 
 .intro-container {
